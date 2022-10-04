@@ -1,0 +1,12 @@
+.header {
+
+    border: 1px solid rgb(199, 199, 199);
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0 auto;
+
+}
+
+.header>h4 {
+    margin-left: 20px;
+}

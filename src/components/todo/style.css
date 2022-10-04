@@ -1,0 +1,45 @@
+.todo {
+    width: 350px;
+    height: 180px;
+    border: 3px solid rgb(255, 187, 84);
+    border-radius: 15px;
+    margin: 0 15px 15px 0;
+}
+
+.w1 {
+
+
+    margin-left: 50px;
+}
+
+.btns1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: red;
+
+
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-right: 10px;
+
+
+}
+
+.btns2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: green;
+
+
+    font-size: 16px;
+    font-weight: bold;
+}
