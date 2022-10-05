@@ -20,7 +20,7 @@ const Form = ({ onSubmit }) => {
                 } />
             </div>
             <div>
-                <button className='btn' type='reset' onClick={() => {
+                <button className='btn' onClick={() => {
                     setInputTitle('')
                     setInputDescription('')
                     let todo = {
