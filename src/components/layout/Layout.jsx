@@ -15,7 +15,7 @@ const Layout = () => {
 
     const onSubmitHandler = (todo) => {
         let maxId = todos.reduce((pre, cur) => { // todos id 최대값 구하기
-            return pre.id > cur.id ? pre.id : cur.id
+            return pre > cur.id ? pre : cur.id
         })
         todo.id = maxId + 1 // 최대값 + 1을 id 값으로 선언
         let addTods = [...todos, todo]// 스프레드 연산자로 기존 객체와 Form 컴포넌트에서 todo로 받아온 객체랑 합침
